@@ -1,11 +1,18 @@
+body {
+    margin: 0;
+}
+
 .square {
     width: 100%;
-    min-width: 342px;
 }
+
+
+/* margin使用百分比而非固定值，因元素设置为浮动，避免宽度不够将元素挤下去，，同时就可以取消之前为避免挤压而设置的min-width */
 
 .item {
     float: left;
-    margin: 0 5px 5px 0;
+    margin: 1.15% 0 0 1.15%;
+    /* margin: 0 5px 5px 0; */
     padding-bottom: 31.8%;
     width: 31.8%;
     height: 0;
